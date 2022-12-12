@@ -1,0 +1,25 @@
+What is Logging?
+++++++++++++++++
+
+Logging is the process of writting log messages during the execution of a program to a central place.
+
+This Logging allows you to report and persist error and warning messages as well as info messages(e.g.,runtime statistics)so that the messages can later be retrieved and analyzed.
+
+This is very helpful to understand exceptions in the applications which are deployed in higher environments like SIT,UAT,PILOT and PROD etc.
+
+Drawbacks of System.out.println :
+---------------------------------
+if we use SOP(System.out.println())statements to print log messages,then we can run into some disadvantages 
+
+	->we can print log on the console only.so,when the console is closed,we will lose 	  all of those logs.
+	->we can't store log messages in any permanent place.These messages will print 	  one by one on the console because it is a single-threaded environment.
+
+To Overcome these problems,the Log4j framework came into the picture.Log4j is an open source framework provided by Apache  for Java Projects.
+
+Log4j Introduction :
+====================
+
+Apache Log4j is a Java-based logging Utility.It was originally written by Ceki Gulcu and is Part of the Apache Logging Services of the Apache Software Foundation.Log4j is one of several Java logging frameworks.
+
+Log4j is a reliable,fast and flexible logging framework(APIs)written in Java,which is distributed under the Apache Software License.
+
